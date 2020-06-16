@@ -24,9 +24,9 @@ https://github.com/anthonywilliams/ccia_code_samples
 |~~ ~~   ~~ ~~ ~~
 |___________________
   execution time
-
+```
 #### parallelism
-
+```
 |~~ ~~ ~~ ~~ ~~ ~~
 |~~ ~~ ~~ ~~ ~~ ~~
 |~~ ~~ ~~ ~~ ~~ ~~
