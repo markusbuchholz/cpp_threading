@@ -1,0 +1,3 @@
+/home/markus/development_cpp_py/packt_books_code/embedded_cpp/9781838821043_Code/Chapter07/threads/build/CMakeFiles/rebuild_cache.dir
+/home/markus/development_cpp_py/packt_books_code/embedded_cpp/9781838821043_Code/Chapter07/threads/build/CMakeFiles/threads.dir
+/home/markus/development_cpp_py/packt_books_code/embedded_cpp/9781838821043_Code/Chapter07/threads/build/CMakeFiles/edit_cache.dir

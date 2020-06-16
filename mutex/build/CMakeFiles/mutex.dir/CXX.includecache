@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/markus/development_cpp_py/cpp_threding/mutex/mutex2.cpp
+chrono
+-
+mutex
+-
+thread
+-
+iostream
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/markus/development_cpp_py/packt_books_code/embedded_cpp/9781838821043_Code/Chapter07/threads/threads.cpp
+chrono
+-
+iostream
+-
+thread
+-
+
