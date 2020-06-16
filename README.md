@@ -1,7 +1,15 @@
 ### This is a repo for threadnig development (just for fun)
+´´´
+ mkdir build
+ cd build
+ /build/cmake ..
+ /build/make
+./run_your_program
+´´´
+**or**
+ ```
+ g++ -std=c++17 mutex2.cpp -o test -pthread
+ ```
+### Links:
 
-* mkdir build
-* cd build
-* /build/cmake ..
-* /build/make
-* ./run_your_program
+https://github.com/anthonywilliams/ccia_code_samples
