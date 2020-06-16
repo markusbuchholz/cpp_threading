@@ -17,6 +17,7 @@ https://github.com/anthonywilliams/ccia_code_samples
 ### concurrency vs. parallelism
 
 #### concurrency
+```
 | ~~ ~~ ~~ ~~  
 |   ~~       ~~
 |~~    ~~
@@ -32,3 +33,4 @@ https://github.com/anthonywilliams/ccia_code_samples
 |~~ ~~ ~~ ~~ ~~ ~~
 |___________________
     execution time
+```
