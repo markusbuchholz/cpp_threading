@@ -13,3 +13,22 @@
 ### Links:
 
 https://github.com/anthonywilliams/ccia_code_samples
+
+### concurrency vs. parallelism
+
+#### concurrency
+| ~~ ~~ ~~ ~~  
+|   ~~       ~~
+|~~    ~~
+|~~ ~~   ~~ ~~ ~~
+|___________________
+  execution time
+
+#### parallelism
+
+|~~ ~~ ~~ ~~ ~~ ~~
+|~~ ~~ ~~ ~~ ~~ ~~
+|~~ ~~ ~~ ~~ ~~ ~~
+|~~ ~~ ~~ ~~ ~~ ~~
+|___________________
+    execution time
