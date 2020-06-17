@@ -11,7 +11,7 @@
  g++ -std=c++17 mutex2.cpp -o test -pthread
  ```
  
- **for TBB**
+**for TBB**
 ```
 g++ your_file.cpp -p output.out -ltbb
 ```
@@ -28,7 +28,7 @@ https://github.com/anthonywilliams/ccia_code_samples
 |~~    ~~
 |~~ ~~   ~~ ~~ ~~
 |___________________
-  execution time
+   execution time
 ```
 #### parallelism
 ```
