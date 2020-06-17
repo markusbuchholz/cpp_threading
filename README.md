@@ -10,6 +10,11 @@
  ```
  g++ -std=c++17 mutex2.cpp -o test -pthread
  ```
+ 
+ **for TBB**
+˝˝˝
+g++ your_file.cpp -p output.out -ltbb
+˝˝˝
 ### Links:
 
 https://github.com/anthonywilliams/ccia_code_samples
