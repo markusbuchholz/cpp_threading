@@ -33,7 +33,6 @@ void worker(int index, int t)
 int main()
 {
     std::cout<<" *ptr_value :: " << *ptr_value << " ptr_value :: " << ptr_value << "&value ::  "<<&value << std::endl;
-    std::cout<<"value before :: " << temp_value << std::endl;
     std::thread worker1(worker, 1, 500);
     std::thread worker2(worker, 2, 50);
 
