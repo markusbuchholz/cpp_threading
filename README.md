@@ -21,7 +21,7 @@ https://github.com/anthonywilliams/ccia_code_samples
 
 ### concurrency vs. parallelism
 
-#### concurrency (one processor core)
+#### concurrency (one processor core) - threads run on one processor
 ```
 | ~~ ~~ ~~ ~~  
 |   ~~       ~~
@@ -30,7 +30,7 @@ https://github.com/anthonywilliams/ccia_code_samples
 |___________________
    execution time
 ```
-#### parallelism (multi core)
+#### parallelism (multi core) - each process on separate core 
 ```
 |~~ ~~ ~~ ~~ ~~ ~~
 |~~ ~~ ~~ ~~ ~~ ~~
