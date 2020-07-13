@@ -1,16 +1,16 @@
 
 //------------------------------------------------------------//
 /*
-This example of thereading shows that worker1 does his job very long - 500ms
-In this time th worker2 is able to performs his complete task 5 * 50ms
+Playing with mutex
 */
 //------------------------------------------------------------//
 
 #include <chrono>
 #include <iostream>
 #include <thread>
+#include <mutex>
 
-
+std::mutex mut1, mut2;
 
 void worker(int index)
 {
@@ -20,13 +20,14 @@ void worker(int index)
     
     if (index == 1)
     {
+      //std::lock_guard<std::mutex> g1(mut1);  
       std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }
 
 
     if (index == 2)
     {
-
+      //std::lock_guard<std::mutex> g2(mut1);
       std::this_thread::sleep_for(std::chrono::milliseconds(50));
     }
 

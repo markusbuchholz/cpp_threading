@@ -1,3 +1,10 @@
+//------------------------------------------------------------//
+/*
+This example of thereading shows that access to output is protected by lock_guard.
+*/
+//------------------------------------------------------------//
+
+
 #include <chrono>
 #include <iostream>
 #include <mutex>

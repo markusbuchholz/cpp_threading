@@ -1,7 +1,9 @@
+//------------------------------------------------------------//
 /*
-Markus Buchholz
-
+This example of thereading shows that access to output is protected by lock_guard.
+Workers updates same memory using pointer
 */
+//------------------------------------------------------------//
 
 #include <chrono>
 #include <mutex>

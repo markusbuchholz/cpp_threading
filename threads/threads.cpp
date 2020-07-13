@@ -1,3 +1,12 @@
+//------------------------------------------------------------//
+/*
+This examample of basic threading.
+Worker 1 and 2 use the same time for its job
+*/
+//------------------------------------------------------------//
+
+
+
 #include <chrono>
 #include <iostream>
 #include <thread>
